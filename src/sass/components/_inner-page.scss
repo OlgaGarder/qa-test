@@ -1,0 +1,19 @@
+.inner-page {
+    padding-top: 70px;
+    &-title {
+        margin-bottom: 30px;
+        &__text {
+            margin: 0;
+        }
+    }
+}
+
+.inner-page-layout {
+    display: flex;
+}
+
+.inner-page-layout__content {
+    width: 100%;
+    flex-grow: 1;
+    flex-basis: 0;
+}

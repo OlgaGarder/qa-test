@@ -1,0 +1,41 @@
+.form__search {
+    display: flex;
+    width: 100%;
+    position: relative;
+    &-field {
+        display: block;
+        width: 100%;
+        border-radius: 5px;
+        background: #ffffff;
+        border: 1px solid #EBEBF1;
+        outline: none;
+        padding: 12px 0 12px 39px;
+        cursor: pointer;
+        &::placeholder {
+            color: #BBC4D6;
+            font-size: 14px;
+            line-height: 16px;
+            letter-spacing: 0.01em;
+
+        }
+    }
+    &-label {
+        position: absolute;
+        top: 12px;
+        left: 14px;
+    }
+}
+
+@media (max-width: 376px) {
+    .form__search {
+        &-field {
+            border: none;
+            padding: 12px 0 3px 49px;
+        }
+        &-label {
+            left: 24px;
+            width: 16px;
+            height: 16px;
+        }
+    }
+}

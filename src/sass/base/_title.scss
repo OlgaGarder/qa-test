@@ -1,0 +1,13 @@
+.h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    color: #121920;
+}
+
+@media (max-width: 769px) {
+    .h1 {
+        font-size: 28px;
+    }
+}
